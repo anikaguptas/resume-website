@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Daksh Narula - Video Editor Resume</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Roboto&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+      color: #fff;
+      padding: 20px;
+      overflow-x: hidden;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      background-color: rgba(0, 0, 0, 0.6);
+      padding: 30px;
+      border-radius: 20px;
+      box-shadow: 0 0 20px #00ffcc;
+      animation: fadeIn 1.5s ease-in;
+    }
+
+    h1, h2 {
+      font-family: 'Orbitron', sans-serif;
+      color: #00ffcc;
+      margin-bottom: 10px;
+    }
+
+    h1 {
+      animation: glowPulse 2s ease-in-out infinite alternate;
+    }
+
+    .section {
+      margin-bottom: 30px;
+      animation: slideUp 1s ease-out;
+    }
+
+    .project {
+      margin-bottom: 15px;
+    }
+
+    .project-title {
+      font-weight: bold;
+      color: #00ffcc;
+    }
+
+    .info {
+      font-size: 0.95em;
+    }
+
+    .skills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .skill {
+      background: #00ffcc;
+      color: #000;
+      padding: 5px 10px;
+      border-radius: 15px;
+      font-weight: bold;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .skill:hover {
+      transform: scale(1.1);
+      box-shadow: 0 0 10px #00ffcc;
+      cursor: pointer;
+    }
+
+    .languages {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .language {
+      background: #00ffcc;
+      color: #000;
+      padding: 5px 12px;
+      border-radius: 20px;
+      font-weight: bold;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .language:hover {
+      transform: scale(1.1);
+      box-shadow: 0 0 10px #00ffcc;
+      cursor: default;
+    }
+
+    .footer {
+      text-align: center;
+      font-size: 0.8em;
+      color: #aaa;
+      margin-top: 20px;
+    }
+
+    /* Animations */
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes slideUp {
+      from { opacity: 0; transform: translateY(40px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes glowPulse {
+      from { text-shadow: 0 0 5px #00ffcc, 0 0 10px #00ffcc; }
+      to { text-shadow: 0 0 15px #00ffcc, 0 0 25px #00ffcc; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Daksh Narula</h1>
+    <p><strong>Video Editor | Visual Storyteller | Cinematic Thinker</strong></p>
+
+    <div class="section">
+      <h2>College</h2>
+      <p>Sathyabama Institute of Science and Technology, Chennai</p>
+    </div>
+
+    <div class="section">
+      <h2>Work & Projects</h2>
+      <div class="project">
+        <div class="project-title">MIST x Pay2Remit</div>
+        <p class="info">Created a 30-sec promotional ad for an international student visa service platform, blending sleek motion graphics with clean transitions.</p>
+      </div>
+      <div class="project">
+        <div class="project-title">DJ Vibes x Café Concept Reel</div>
+        <p class="info">Shot and edited a unique café DJ event reel, capturing energetic party vibes paired with coffee aesthetics for social media marketing.</p>
+      </div>
+      <div class="project">
+        <div class="project-title">Reflections of the Past - Concept Teaser</div>
+        <p class="info">Produced a moody, mysterious teaser for a short film, showcasing skills in sound design, color grading, and atmosphere building.</p>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Skills</h2>
+      <div class="skills">
+        <div class="skill">Adobe Premiere Pro</div>
+        <div class="skill">After Effects</div>
+        <div class="skill">Cinematography</div>
+        <div class="skill">Motion Graphics</div>
+        <div class="skill">Color Grading</div>
+        <div class="skill">Storyboarding</div>
+        <div class="skill">Social Media Reels</div>
+        <div class="skill">Sound Design</div>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Languages</h2>
+      <div class="languages">
+        <div class="language">Hindi</div>
+        <div class="language">English</div>
+        <div class="language">French</div>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>About Me</h2>
+      <p>A passionate creator who blends the thrill of sports with the energy of music and the art of visuals. Always chasing new challenges and ready to bring stories to life through editing.</p>
+    </div>
+
+    <div class="footer">
+      <p>© 2025 Daksh Narula | Built with 💻⚡🎬</p>
+    </div>
+  </div>
+</body>
+</html>
